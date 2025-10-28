@@ -93,6 +93,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ed6bb0f3c775dc94990b9eb4b0effc9f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 37d0846222a8afa4a939ba3f357a5f49, type: 2}
     - target: {fileID: 919132149155446097, guid: ed6bb0f3c775dc94990b9eb4b0effc9f, type: 3}
       propertyPath: m_Name
       value: RailingConnector
@@ -100,13 +104,42 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ed6bb0f3c775dc94990b9eb4b0effc9f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3864489546419410034}
   m_SourcePrefab: {fileID: 100100000, guid: ed6bb0f3c775dc94990b9eb4b0effc9f, type: 3}
 --- !u!4 &134394797220126519 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ed6bb0f3c775dc94990b9eb4b0effc9f, type: 3}
   m_PrefabInstance: {fileID: 457060551370619100}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &762981869293077901 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ed6bb0f3c775dc94990b9eb4b0effc9f, type: 3}
+  m_PrefabInstance: {fileID: 457060551370619100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3864489546419410034
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762981869293077901}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5024096, y: 0.5254209, z: 1.6905147}
+  m_Center: {x: 0.000030517578, y: 0.0000037103891, z: 0.84525734}
 --- !u!1001 &6691200966469118421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -163,6 +196,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ae3fcc5105ca184eaada863060f6a93, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c1a8914b0d15b6948be45ca8ff0365ec, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ae3fcc5105ca184eaada863060f6a93, type: 3}
       propertyPath: m_Name
       value: Railing1
@@ -170,8 +207,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1ae3fcc5105ca184eaada863060f6a93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1705791376887062207}
   m_SourcePrefab: {fileID: 100100000, guid: 1ae3fcc5105ca184eaada863060f6a93, type: 3}
+--- !u!1 &5772068818388604036 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1ae3fcc5105ca184eaada863060f6a93, type: 3}
+  m_PrefabInstance: {fileID: 6691200966469118421}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1705791376887062207
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5772068818388604036}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.5724285, y: 1.1118114, z: 0.111955255}
+  m_Center: {x: 0.000015258789, y: 0, z: -0.000005722046}
 --- !u!4 &6580131440688172606 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1ae3fcc5105ca184eaada863060f6a93, type: 3}
