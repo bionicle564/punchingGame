@@ -5524,6 +5524,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 15.307338, y: 1.0000013, z: 6.000003}
   m_Center: {x: -0.00000019194087, y: 18.977592, z: 3}
+--- !u!1 &537271919 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1232746801428211920, guid: a2d3991d470982444b59141f82d23b9a, type: 3}
+  m_PrefabInstance: {fileID: 935792702640910846}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &539663094 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
@@ -22519,12 +22524,13 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Distance","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackRange","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FireballSpawnPoint","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ProjectileSpeed","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ProjectileSpeed","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"StaffAttack","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 8308826514175670763, guid: a2d3991d470982444b59141f82d23b9a, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8308826514175670763, guid: a2d3991d470982444b59141f82d23b9a, type: 3}
       propertyPath: '_data._objectReferences.Array.data[1]'
@@ -22538,6 +22544,10 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[3]'
       value: 
       objectReference: {fileID: 398882548}
+    - target: {fileID: 8308826514175670763, guid: a2d3991d470982444b59141f82d23b9a, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[4]'
+      value: 
+      objectReference: {fileID: 537271919}
     m_RemovedComponents:
     - {fileID: 5396324287580691195, guid: a2d3991d470982444b59141f82d23b9a, type: 3}
     m_RemovedGameObjects: []
