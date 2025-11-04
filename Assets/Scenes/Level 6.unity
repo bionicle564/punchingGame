@@ -1467,6 +1467,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3440783684447430456, guid: e6811641996dffd49aede4d74c4edcb6, type: 3}
   m_PrefabInstance: {fileID: 159521428}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &160370572 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5141722351098789905, guid: 6e0664fa71f93344a9ac8974972b7cb9, type: 3}
+  m_PrefabInstance: {fileID: 1899146599}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &169909316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12858,6 +12863,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
+--- !u!1 &1082495116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2239079794524947105, guid: 6e0664fa71f93344a9ac8974972b7cb9, type: 3}
+  m_PrefabInstance: {fileID: 1899146599}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1085883101 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
@@ -18527,6 +18537,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 846385514}
   m_SourcePrefab: {fileID: 100100000, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
+--- !u!1 &1700982721 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7456489729170425461, guid: 6e0664fa71f93344a9ac8974972b7cb9, type: 3}
+  m_PrefabInstance: {fileID: 1899146599}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1704695016 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8579033088295190192, guid: 663efbd9844bdc143aab8fb963a46901, type: 3}
@@ -20452,6 +20467,29 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[7]'
       value: 
       objectReference: {fileID: 607426135}
+    - target: {fileID: 5265020240475393783, guid: 6e0664fa71f93344a9ac8974972b7cb9, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"NavMesh","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Book","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BookBroken","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265020240475393783, guid: 6e0664fa71f93344a9ac8974972b7cb9, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265020240475393783, guid: 6e0664fa71f93344a9ac8974972b7cb9, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1700982721}
+    - target: {fileID: 5265020240475393783, guid: 6e0664fa71f93344a9ac8974972b7cb9, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[1]'
+      value: 
+      objectReference: {fileID: 160370572}
+    - target: {fileID: 5265020240475393783, guid: 6e0664fa71f93344a9ac8974972b7cb9, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1082495116}
     - target: {fileID: 5285406911276426837, guid: 6e0664fa71f93344a9ac8974972b7cb9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.11
