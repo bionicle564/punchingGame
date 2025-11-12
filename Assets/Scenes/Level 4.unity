@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 9d762bdbe13f5e741aeb82b45216dafe, type: 2}
   m_HaloStrength: 0.5
@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: b339cb528b195a745ae9663ce5637236, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 4890085278179872738, guid: c4c4b108fa3a87b44825e308b5207831, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -9475,12 +9475,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 4749050df8303b944bfa074a6890e108, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4749050df8303b944bfa074a6890e108, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 23de6f7f9148de04cad51f70530450a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 4749050df8303b944bfa074a6890e108, type: 3}
       propertyPath: m_Name
       value: roof
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4749050df8303b944bfa074a6890e108, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4749050df8303b944bfa074a6890e108, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14736,6 +14744,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6771984695525298941, guid: 1ee08b79099821e4587fed661b136f63, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287847306241821701, guid: 1ee08b79099821e4587fed661b136f63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9037548765910112223, guid: 1ee08b79099821e4587fed661b136f63, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"nextLevel","value":{"$content":"Level
@@ -16084,17 +16100,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3610363834601983841, guid: 2d0487d211cefce41b0cc7ad37101ce0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 5648397045992306741, guid: 2d0487d211cefce41b0cc7ad37101ce0, type: 3}
       propertyPath: m_Name
       value: cauldren
-      objectReference: {fileID: 0}
-    - target: {fileID: 5648397045992306741, guid: 2d0487d211cefce41b0cc7ad37101ce0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8096967401801264323, guid: 2d0487d211cefce41b0cc7ad37101ce0, type: 3}
       propertyPath: m_LocalPosition.x
