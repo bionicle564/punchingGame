@@ -6977,6 +6977,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 15.307337, y: 1.0000002, z: 6.0000014}
   m_Center: {x: 0.0000011920929, y: 18.977594, z: 3.0000007}
+--- !u!1 &589338108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1203947771087866081, guid: bd16489ea13741c45945013ceca03313, type: 3}
+  m_PrefabInstance: {fileID: 1651187753}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &591135409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8518,6 +8523,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 334910630}
   m_SourcePrefab: {fileID: 100100000, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
+--- !u!1 &668573253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1203947771087866081, guid: bd16489ea13741c45945013ceca03313, type: 3}
+  m_PrefabInstance: {fileID: 607851436}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &668833418
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10011,10 +10021,12 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"TelescopeRotation","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Telescope","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Candle","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Confirmation","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1918802956}
     - {fileID: 174653782}
+    - {fileID: 2108589370}
 --- !u!65 &763208467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21393,10 +21405,12 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"TelescopeRotation","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Telescope","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Candle","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Confirmation","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1798791093}
     - {fileID: 1159544396}
+    - {fileID: 589338108}
 --- !u!65 &1749579001
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24795,10 +24809,12 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"TelescopeRotation","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Telescope","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Candle","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Confirmation","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1849487198}
     - {fileID: 2135641499}
+    - {fileID: 668573253}
 --- !u!65 &2073152067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24976,6 +24992,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a062c666f7297804eba2e12d90bdc056, type: 3}
+--- !u!1 &2108589370 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1203947771087866081, guid: bd16489ea13741c45945013ceca03313, type: 3}
+  m_PrefabInstance: {fileID: 1308633450}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2110184444 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5681996983119877411, guid: 6e0664fa71f93344a9ac8974972b7cb9, type: 3}
