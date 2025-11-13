@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1441848219559846935
 Transform:
@@ -84,9 +84,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4217158984714786795, guid: 45095c5b97bcc0842a2dfdd949457f8e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -427406307339272197, guid: 45095c5b97bcc0842a2dfdd949457f8e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 45095c5b97bcc0842a2dfdd949457f8e, type: 3}
       propertyPath: m_Name
       value: Greenhouse Roof_Mesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 45095c5b97bcc0842a2dfdd949457f8e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -157,6 +169,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -4217158984714786795, guid: 45095c5b97bcc0842a2dfdd949457f8e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -1967951015499419697, guid: 45095c5b97bcc0842a2dfdd949457f8e, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -165,9 +181,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -427406307339272197, guid: 45095c5b97bcc0842a2dfdd949457f8e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 45095c5b97bcc0842a2dfdd949457f8e, type: 3}
       propertyPath: m_Name
       value: Greenhouse Roof_Collider
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 45095c5b97bcc0842a2dfdd949457f8e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
