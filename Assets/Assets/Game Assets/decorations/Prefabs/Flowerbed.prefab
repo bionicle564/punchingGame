@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5686340240342796863}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flowerbed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,6 +85,10 @@ PrefabInstance:
       value: Flowerbed_Mesh
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ceac48b8f39b6064b97b02d29194a62c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ceac48b8f39b6064b97b02d29194a62c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -156,6 +160,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ceac48b8f39b6064b97b02d29194a62c, type: 3}
       propertyPath: m_Name
       value: Flowerbed_Collider
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ceac48b8f39b6064b97b02d29194a62c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ceac48b8f39b6064b97b02d29194a62c, type: 3}
       propertyPath: m_StaticEditorFlags
