@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4044877464765199020}
   - component: {fileID: 7528019822730363716}
   - component: {fileID: 2806099687660308533}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: PlayerDetect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 133677410266329256}
   - component: {fileID: 6572037269695967943}
   - component: {fileID: 5188267974318811619}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Attack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,7 +137,6 @@ GameObject:
   - component: {fileID: 3369972064580427516}
   - component: {fileID: 8068806899699884962}
   - component: {fileID: 4389256936081653738}
-  - component: {fileID: 597979619163231265}
   m_Layer: 6
   m_Name: Ghost
   m_TagString: Untagged
@@ -258,22 +257,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 6257440f573110146b7f0e4b0253f7a0, type: 2}
---- !u!114 &597979619163231265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2204038762997083858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: e771f82feaf4378439610c3a2e07d93d, type: 2}
 --- !u!1 &2962399637996335220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,10 +1052,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 64c8fd5cc6fffa24bb5d66012dc03fb1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1744702949433580258}
+      addedObject: {fileID: 42170535617247207}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 64c8fd5cc6fffa24bb5d66012dc03fb1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3786494075616648897}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 64c8fd5cc6fffa24bb5d66012dc03fb1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5422967674803813430}
   m_SourcePrefab: {fileID: 100100000, guid: 64c8fd5cc6fffa24bb5d66012dc03fb1, type: 3}
 --- !u!4 &8524978953916590917 stripped
 Transform:
@@ -1084,8 +1070,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 64c8fd5cc6fffa24bb5d66012dc03fb1, type: 3}
   m_PrefabInstance: {fileID: 8197807297076677806}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1744702949433580258
-MeshCollider:
+--- !u!136 &42170535617247207
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1099,13 +1085,14 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Radius: 1.4286125
+  m_Height: 2.857225
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.89553356, z: -0.5538957}
 --- !u!114 &3786494075616648897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1119,5 +1106,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"GhostHealth","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GhostKill","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GhostPoof","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Ghost","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"FullGhost","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 6367841964970638305}
+    - {fileID: 6010923813493433703}
+    - {fileID: 2962399637996335220}
+    - {fileID: 2204038762997083858}
+--- !u!114 &5422967674803813430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9008641386166186495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e771f82feaf4378439610c3a2e07d93d, type: 2}
