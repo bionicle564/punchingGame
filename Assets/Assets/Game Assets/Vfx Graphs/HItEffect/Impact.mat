@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Impact
   m_Shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
-  m_Parent: {fileID: 2100000, guid: 4522cdb4cb9a6bc429ec68372bd515de, type: 2}
+  m_Parent: {fileID: 2100000, guid: 92fe4bfb05ff05b4c9acef8b084a523f, type: 2}
   m_ModifiedSerializedProperties: 16
   m_ValidKeywords:
   - _COLOROVERLAY_ON
@@ -31,8 +31,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: b69aae0df26fc104e9e6dd8251bca9b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 0a0a49f6555a0684183185a3e783c4d0, type: 3}
+        m_Texture: {fileID: 2800000, guid: b69aae0df26fc104e9e6dd8251bca9b5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
