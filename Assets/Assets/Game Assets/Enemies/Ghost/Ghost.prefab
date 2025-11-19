@@ -671,6 +671,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5779835866630297728}
+  - component: {fileID: 8227968156771445635}
+  - component: {fileID: 1053288707959318169}
   m_Layer: 0
   m_Name: Ghost enemy dead
   m_TagString: Untagged
@@ -696,6 +698,37 @@ Transform:
   - {fileID: 5442988298083672960}
   m_Father: {fileID: 6821141800221200392}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8227968156771445635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6367841964970638305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &1053288707959318169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6367841964970638305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 486f9ba4d80f6014d9e79db0cfad4119, type: 2}
 --- !u!1001 &4024922815034260906
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1029,6 +1062,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 64c8fd5cc6fffa24bb5d66012dc03fb1, type: 3}
       propertyPath: m_Name
       value: Ghost enemy_collider
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 64c8fd5cc6fffa24bb5d66012dc03fb1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2255360967866848920, guid: 64c8fd5cc6fffa24bb5d66012dc03fb1, type: 3}
       propertyPath: m_Enabled
