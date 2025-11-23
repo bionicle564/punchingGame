@@ -9,12 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8816043506101435774}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Railing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8816043506101435774
 Transform:
@@ -100,6 +100,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ed6bb0f3c775dc94990b9eb4b0effc9f, type: 3}
       propertyPath: m_Name
       value: RailingConnector
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ed6bb0f3c775dc94990b9eb4b0effc9f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ed6bb0f3c775dc94990b9eb4b0effc9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -203,6 +211,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1ae3fcc5105ca184eaada863060f6a93, type: 3}
       propertyPath: m_Name
       value: Railing1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1ae3fcc5105ca184eaada863060f6a93, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1ae3fcc5105ca184eaada863060f6a93, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
