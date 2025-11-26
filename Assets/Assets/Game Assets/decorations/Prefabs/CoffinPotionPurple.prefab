@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7603863084960288215
 Transform:
@@ -106,7 +106,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3667823485698346422
 Transform:
@@ -165,7 +165,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 0
 --- !u!4 &7094069396161526800
 Transform:
@@ -255,6 +255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CoffinGems
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5072e1eb28cdc88488731c2f35594df7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -336,6 +340,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1e8fa823182200044b5d53ffd608449e, type: 3}
       propertyPath: m_Name
       value: CoffinBottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e8fa823182200044b5d53ffd608449e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -419,6 +427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CoffinPotion
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 85598f002e18131408dbce1eb07745d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -496,6 +508,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2d662e2a7b2623b4babf23630cbf87ac, type: 3}
       propertyPath: m_Name
       value: CoffinCork
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2d662e2a7b2623b4babf23630cbf87ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

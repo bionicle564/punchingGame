@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1084652804877948056
 Transform:
@@ -105,7 +105,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 0
 --- !u!4 &9096077862799964511
 Transform:
@@ -138,7 +138,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6751511309090685867
 Transform:
@@ -247,6 +247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WineCork
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 54e3a9c2802d4c142977f5aa2dd60663, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -324,6 +328,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ea7f14520c874924d9e636b2a2b5846e, type: 3}
       propertyPath: m_Name
       value: WineLabel
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ea7f14520c874924d9e636b2a2b5846e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -403,6 +411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinePotion
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d78790eea5df7d24bb1e76be2a005b64, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -480,6 +492,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e4c2ad1ef9c0d3944b5e18ef61ae6683, type: 3}
       propertyPath: m_Name
       value: WineBottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4c2ad1ef9c0d3944b5e18ef61ae6683, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
