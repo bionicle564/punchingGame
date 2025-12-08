@@ -24,12 +24,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 785112591628469015}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.24857013, y: -0, z: -0, w: 0.9686139}
-  m_LocalPosition: {x: 6.94, y: 0.48, z: -5.19}
-  m_LocalScale: {x: 5, y: 1.2277504, z: 2.5940185}
+  m_LocalRotation: {x: 0.02527599, y: -0, z: -0, w: 0.9996805}
+  m_LocalPosition: {x: 1.0069962, y: 2.0081346, z: 0.018707275}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3703068276602619113}
+  m_Father: {fileID: 7914879024218971980}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &951139620772647068
 GameObject:
@@ -79,7 +79,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7195922399062763762
 Transform:
   m_ObjectHideFlags: 0
@@ -88,12 +88,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232746801428211920}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.24857013, y: -0, z: -0, w: 0.9686139}
-  m_LocalPosition: {x: -0.05, y: 1.424, z: 3.01}
-  m_LocalScale: {x: 5, y: 1.2277504, z: 2.5940185}
+  m_LocalRotation: {x: 0.02527599, y: -0, z: -0, w: 0.9996805}
+  m_LocalPosition: {x: -0.56100464, y: 2.0046048, z: 1.9131851}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3703068276602619113}
+  m_Father: {fileID: 7914879024218971980}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &8936576373133440325
 BoxCollider:
@@ -147,9 +147,7 @@ Transform:
   m_LocalPosition: {x: -0.5510025, y: 1.109, z: 0.6529999}
   m_LocalScale: {x: 0.2, y: 1, z: 0.2}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 223316473762922036}
-  - {fileID: 7195922399062763762}
+  m_Children: []
   m_Father: {fileID: 7053963137400126618}
   m_LocalEulerAnglesHint: {x: 31.683, y: 0, z: 0}
 --- !u!33 &1630227298541048685
@@ -340,6 +338,8 @@ Transform:
   m_Children:
   - {fileID: 7882248652502468001}
   - {fileID: 7053963137400126618}
+  - {fileID: 223316473762922036}
+  - {fileID: 7195922399062763762}
   - {fileID: 8033486380607594599}
   - {fileID: 2642930034514208607}
   m_Father: {fileID: 0}
