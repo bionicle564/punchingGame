@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4528317347612247807}
   - component: {fileID: 6851861917937007940}
   - component: {fileID: 750014981163121708}
+  - component: {fileID: 6751480558843098303}
   m_Layer: 0
   m_Name: MetalPot
   m_TagString: Statue
@@ -106,6 +107,23 @@ CapsuleCollider:
   m_Height: 0.53
   m_Direction: 1
   m_Center: {x: 0, y: 0.79, z: 0}
+--- !u!114 &6751480558843098303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8232215178042387743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Rigidbody","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Rigidbody,
+      UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 4528317347612247807}
 --- !u!1001 &6818105989943257617
 PrefabInstance:
   m_ObjectHideFlags: 0
