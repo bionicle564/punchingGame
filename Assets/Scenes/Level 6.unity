@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 36e67d0a776d80a4cbd5d84fb487b0f8, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 859536fb1756cc64e9c3089044ad5b01, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -3072,7 +3072,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &134122263
 Transform:
   m_ObjectHideFlags: 0
@@ -10073,6 +10073,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"WizardHealth","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SummoningCircle","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"WizardAppear","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Inactive","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 111701685}
@@ -10082,6 +10083,7 @@ MonoBehaviour:
     - {fileID: 1340202333}
     - {fileID: 888789057}
     - {fileID: 939676719}
+    - {fileID: 134122262}
 --- !u!65 &414547137
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10133,7 +10135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &419750571
 Transform:
   m_ObjectHideFlags: 0
@@ -16390,7 +16392,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &647682935
 Transform:
   m_ObjectHideFlags: 0
@@ -33622,7 +33624,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1416791836
 Transform:
   m_ObjectHideFlags: 0
@@ -38567,6 +38569,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2117115170}
     m_Modifications:
+    - target: {fileID: 660752746363404128, guid: bd16489ea13741c45945013ceca03313, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 660752746363404128, guid: bd16489ea13741c45945013ceca03313, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Laser","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 664200412360254454, guid: bd16489ea13741c45945013ceca03313, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
@@ -38601,6 +38612,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1600491731700600924, guid: bd16489ea13741c45945013ceca03313, type: 3}
       propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2346510479137893204, guid: bd16489ea13741c45945013ceca03313, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3666536023606789919, guid: bd16489ea13741c45945013ceca03313, type: 3}
@@ -38703,6 +38718,38 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[2]'
       value: 
       objectReference: {fileID: 1159544396}
+    - target: {fileID: 5434832978093515466, guid: bd16489ea13741c45945013ceca03313, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0000137472525
+      objectReference: {fileID: 0}
+    - target: {fileID: 5434832978093515466, guid: bd16489ea13741c45945013ceca03313, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.050000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 5434832978093515466, guid: bd16489ea13741c45945013ceca03313, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.3400235
+      objectReference: {fileID: 0}
+    - target: {fileID: 5434832978093515466, guid: bd16489ea13741c45945013ceca03313, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99912906
+      objectReference: {fileID: 0}
+    - target: {fileID: 5434832978093515466, guid: bd16489ea13741c45945013ceca03313, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.04172744
+      objectReference: {fileID: 0}
+    - target: {fileID: 5434832978093515466, guid: bd16489ea13741c45945013ceca03313, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5434832978093515466, guid: bd16489ea13741c45945013ceca03313, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5434832978093515466, guid: bd16489ea13741c45945013ceca03313, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 4.783
+      objectReference: {fileID: 0}
     - target: {fileID: 6006757907681909760, guid: bd16489ea13741c45945013ceca03313, type: 3}
       propertyPath: m_Name
       value: Telescope (2)
@@ -44023,10 +44070,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"PlayerHealth","value":{"$content":100.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WizardSpawn","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WizardSpawn2","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WizardSpawn3","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WizardHealth","value":{"$content":200,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WizardSpawn","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WizardSpawn2","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WizardSpawn3","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WizardHealth","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PauseToAttack","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackToPause","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"LevelExit","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
