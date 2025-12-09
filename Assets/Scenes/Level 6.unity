@@ -2789,11 +2789,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.7113625, y: 0.7127557, z: 4.9949846}
   m_Center: {x: -0.010339468, y: 0.003926455, z: 0.0011732578}
---- !u!4 &121447920 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6856776102317435340, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
-  m_PrefabInstance: {fileID: 208215189}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &121517780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4111,6 +4106,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5951589534235560743, guid: 8fc8ffa67caa72f44ad38829baef6505, type: 3}
+      propertyPath: m_TagString
+      value: FireballDestroy
+      objectReference: {fileID: 0}
     - target: {fileID: 6472688109149180317, guid: 8fc8ffa67caa72f44ad38829baef6505, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.86
@@ -4693,75 +4692,6 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!1001 &208215189
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 504501276}
-    m_Modifications:
-    - target: {fileID: 5986092824253382552, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
-      propertyPath: m_Name
-      value: pot_1m_1m (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6856776102317435340, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.69506
-      objectReference: {fileID: 0}
-    - target: {fileID: 6856776102317435340, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.69506
-      objectReference: {fileID: 0}
-    - target: {fileID: 6856776102317435340, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.69506
-      objectReference: {fileID: 0}
-    - target: {fileID: 6856776102317435340, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -21.149994
-      objectReference: {fileID: 0}
-    - target: {fileID: 6856776102317435340, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 6.587
-      objectReference: {fileID: 0}
-    - target: {fileID: 6856776102317435340, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 34.51001
-      objectReference: {fileID: 0}
-    - target: {fileID: 6856776102317435340, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6856776102317435340, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6856776102317435340, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6856776102317435340, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6856776102317435340, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6856776102317435340, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6856776102317435340, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 152d32d658955434bb5a97697ca0ede4, type: 3}
 --- !u!1001 &208940075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7964,6 +7894,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
       propertyPath: m_Name
       value: Wall_15mx5mx1m
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
+      propertyPath: m_TagString
+      value: FireballDestroy
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12580,7 +12514,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1657740861}
-  - {fileID: 121447920}
   - {fileID: 489940642}
   - {fileID: 647436967}
   - {fileID: 462028521}
@@ -18370,7 +18303,7 @@ GameObject:
   - component: {fileID: 717777682}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: FireballDestroy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20005,6 +19938,10 @@ PrefabInstance:
       value: WallWithWindow
       objectReference: {fileID: 0}
     - target: {fileID: 3541065369471175091, guid: 33af0922e25204e4cb20fce8333ef00e, type: 3}
+      propertyPath: m_TagString
+      value: FireballDestroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541065369471175091, guid: 33af0922e25204e4cb20fce8333ef00e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -20088,6 +20025,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0884f58d4a1bdaa40b86ec183935cb4b, type: 2}
+    - target: {fileID: 8499591418372031164, guid: 33af0922e25204e4cb20fce8333ef00e, type: 3}
+      propertyPath: m_TagString
+      value: FireballDestroy
+      objectReference: {fileID: 0}
     - target: {fileID: 8499591418372031164, guid: 33af0922e25204e4cb20fce8333ef00e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -28731,6 +28672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Banner 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3561977470510528964, guid: df0bca637256e174f8beb63170c15ebb, type: 3}
+      propertyPath: m_TagString
+      value: FireballDestroy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29599,6 +29544,10 @@ PrefabInstance:
       value: WallWithWindow
       objectReference: {fileID: 0}
     - target: {fileID: 3541065369471175091, guid: 33af0922e25204e4cb20fce8333ef00e, type: 3}
+      propertyPath: m_TagString
+      value: FireballDestroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541065369471175091, guid: 33af0922e25204e4cb20fce8333ef00e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -29690,6 +29639,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0884f58d4a1bdaa40b86ec183935cb4b, type: 2}
+    - target: {fileID: 8499591418372031164, guid: 33af0922e25204e4cb20fce8333ef00e, type: 3}
+      propertyPath: m_TagString
+      value: FireballDestroy
+      objectReference: {fileID: 0}
     - target: {fileID: 8499591418372031164, guid: 33af0922e25204e4cb20fce8333ef00e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -35390,6 +35343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Banner 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8502866700263525614, guid: a2bee6144d5b2574f9fc889f20cb86fc, type: 3}
+      propertyPath: m_TagString
+      value: FireballDestroy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38858,6 +38815,10 @@ PrefabInstance:
       value: Wall_15mx5mx1m
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
+      propertyPath: m_TagString
+      value: FireballDestroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -42211,6 +42172,10 @@ PrefabInstance:
       value: Wall_15mx5mx1m
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
+      propertyPath: m_TagString
+      value: FireballDestroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -44068,6 +44033,7 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PassedHalfway","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WizardHealthHalfpoint","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DamageDetected","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Active","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!4 &1897514265
@@ -44413,6 +44379,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
       propertyPath: m_Name
       value: Wall_15mx5mx1m
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
+      propertyPath: m_TagString
+      value: FireballDestroy
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -45082,6 +45052,10 @@ PrefabInstance:
     - target: {fileID: 5951589534235560743, guid: 8fc8ffa67caa72f44ad38829baef6505, type: 3}
       propertyPath: m_Name
       value: WallTorch (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951589534235560743, guid: 8fc8ffa67caa72f44ad38829baef6505, type: 3}
+      propertyPath: m_TagString
+      value: FireballDestroy
       objectReference: {fileID: 0}
     - target: {fileID: 6472688109149180317, guid: 8fc8ffa67caa72f44ad38829baef6505, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48610,6 +48584,10 @@ PrefabInstance:
       value: Wall_15mx5mx1m
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
+      propertyPath: m_TagString
+      value: FireballDestroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 986f064b522554b4dbaaad0a67a43128, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -50778,6 +50756,10 @@ PrefabInstance:
       value: WallWithWindow
       objectReference: {fileID: 0}
     - target: {fileID: 3541065369471175091, guid: 33af0922e25204e4cb20fce8333ef00e, type: 3}
+      propertyPath: m_TagString
+      value: FireballDestroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541065369471175091, guid: 33af0922e25204e4cb20fce8333ef00e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -50865,6 +50847,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0884f58d4a1bdaa40b86ec183935cb4b, type: 2}
+    - target: {fileID: 8499591418372031164, guid: 33af0922e25204e4cb20fce8333ef00e, type: 3}
+      propertyPath: m_TagString
+      value: FireballDestroy
+      objectReference: {fileID: 0}
     - target: {fileID: 8499591418372031164, guid: 33af0922e25204e4cb20fce8333ef00e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
